@@ -1,5 +1,5 @@
 window.onload = function(){
-    $('.load').fadeOut()
+    $('.load').fadeOut().parent().css("overflow" , "hidden scroll")
 }
 $(document).ready(function(){
     $('.test-slider').owlCarousel({
